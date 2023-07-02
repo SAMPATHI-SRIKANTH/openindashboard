@@ -1,0 +1,64 @@
+.line-chart-container {
+    width: 70vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #FFF;
+    margin-left: 33px;
+    margin-right: 12x;
+    padding: 0px 20px 10px 10px;
+}
+.chart-heading {
+    color: #000;
+font-size: 18px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 5px;
+margin-bottom: 0px;
+margin-left: 19px;
+}
+.line-chart-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0px  10px;
+    padding: 5px 10px;
+}
+.chart-legend {
+    display: flex;
+    margin-right: 10px;
+}
+
+.user {
+    color: #000;
+font-size: 14px;
+font-family: Lato;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}.guest {
+color: #000;
+font-size: 14px;
+font-family: Lato;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.select-container {
+    background-color:#FFF;
+}
+.select-element {
+    width: 130px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #FFF;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+}

@@ -1,0 +1,165 @@
+.sidebar {
+
+    width: 280px;
+    height: calc(100vh-1%);
+    border-radius: 30px;
+    background-color: #000000;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sidebar-content {
+    margin-left: 15%;
+}
+
+.sidebar-bottom{
+    margin: 10% 20%;
+} 
+.f-nav-item{
+    margin-bottom: 30px;
+}
+.sidebar-heading {
+    color: #FFF;
+    font-size: 36px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 40px 0px;
+}
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    margin: 20x 50px;
+    
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.nav-link {
+    text-decoration: none;
+    color: #FFFfff;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+  
+
+}
+.side-bar-icon{
+    width: 18px;
+    height: 18px;
+    margin-right:20px ;
+}
+
+.nav-active{
+    font-size: 18px;
+    font-weight: 700;    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* above this is new css code */
+/* .sidebar{
+    background-color: #000000;
+    position: fixed;
+    top:40;
+    left:40
+    color: #ffffff;
+    border-radius: 30px;
+    width: 280px;
+    height: 100%;
+    min-height: 667px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+   
+/* } */
+/* .sidebar-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 60px 50px;
+}
+.menu {
+    height: 80%;
+}
+.sidebar-bottom {
+    height: 20%;
+}
+.nav-list {
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.nav-item {
+    margin-bottom: 40px;
+}
+.nav-link {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+.side-bar-icon{
+    width: 18px;
+    height: 18px;
+    margin-right:20px ;
+}
+.bottom-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+.f-nav-item {
+    margin-bottom: 20px;
+}
+.nav-active{
+font-size: 18px;
+font-weight: 700;
+
+}  */

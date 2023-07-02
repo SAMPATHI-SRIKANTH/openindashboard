@@ -1,0 +1,59 @@
+.products-pie-chart-container{
+    width: 35vw;
+    height: 256px;
+border-radius: 20px;
+background: #FFF;
+margin: 20px;
+display: flex;
+flex-direction: column;
+}
+
+.pie-chart-container {
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.pie-legend-container{
+    margin: 0px;
+}
+.pie-heading {
+    font-family: 'Montserrat';
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #000;
+}
+.pie-chart-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+}
+.see-all-btn {
+    background-color: transparent;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #858585;
+
+}
+.pie-legend{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#000;
+}
+
+@media screen and (max-width:768px) {
+    .products-pie-chart-container{
+        width: 70vw;
+    }
+}

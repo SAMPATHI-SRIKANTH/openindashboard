@@ -1,0 +1,147 @@
+.layout {
+    background-color: #F5F5F5;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding: 1%;
+}
+.main-layout {
+    overflow: scroll;
+}
+/* Header Componet  */
+
+.header {
+    width: 74vw;
+    height: 25px;
+    margin: -15px 0px;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+}
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-heading{
+    color: #000;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+.header-right-side{
+    display: flex;
+    align-items: center;
+}
+.search-box-container {
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 3px 8px;
+}
+.header-search {
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    color:  #B0B0B0;
+    font-size: 14px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.user-profile{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.notification-icon  {
+        width: 18px;
+        height: 20px;
+        margin: 0px 20px;
+    }
+
+
+
+/* Cards Components */
+
+.cards-list{
+    list-style-type: none;
+    width: 100%;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 30px 2px 0px 0px;
+}
+
+.card{
+    
+    background-color: #DDEFE0;
+    max-width: 291.053px;
+    width: 190px;
+    max-height: 120px;
+    margin-left:30.84px;
+    border-radius: 10px;
+    padding:15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-bottom: 8px;
+    flex-grow: 1;
+
+}
+.card-title {
+    color: #000;
+    font-size: 14px;
+    font-family: 'Lato';
+    font-weight: 400;
+    margin-bottom: 5px;
+    
+}
+.card-value {
+    color: #000;
+font-size: 22px;
+font-family: 'Open Sans';
+font-weight: 700;
+margin: 0px;
+
+}
+.card-icon {
+    width: 26px;
+    height: 24px;
+    align-self: flex-end;
+}
+.card1 {
+    background-color: #DDEFE0;
+}
+.card2{
+    background-color:  #F4ECDD;
+}
+.card3{
+    background-color: #EFDADA;
+}
+.card4 {
+    background-color: #DEE0EF;
+}
+
+.footer-container{
+    display: flex;
+}
+
+@media screen and (max-width:768px){
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .layout {
+        background-color: #F5F5F5;
+        width: 100vw;
+        height: 100%;
+    }
+}
